@@ -7,8 +7,26 @@
   }
   
   .cell {
-    background-color: gray;
+    background-color: grey;
     width: 30px;
     height: 30px;
+    color: grey;
   }
   
+ .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+.sliderContainer {
+  display:flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .container {
+  display: flex;
+  flex-direction: column;
+ }
